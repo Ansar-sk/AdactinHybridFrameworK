@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-10T23:13:41 IST" name="Suite" finished-at="2025-02-10T23:14:09 IST" duration-ms="27765">
+    <groups>
+    </groups>
+    <test started-at="2025-02-10T23:13:41 IST" name="Test" finished-at="2025-02-10T23:14:09 IST" duration-ms="27765">
+      <class name="testscripts.regression.ValidateLoginUsingPOM">
+        <test-method is-config="true" signature="filereadset()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM@644baf4a]" started-at="2025-02-10T23:13:41 IST" name="filereadset" finished-at="2025-02-10T23:13:41 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filereadset -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM@644baf4a]" started-at="2025-02-10T23:13:42 IST" name="setup" finished-at="2025-02-10T23:14:02 IST" duration-ms="20667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testscripts.regression.ValidateLoginUsingPOM.validatelogin(java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatelogin(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM@644baf4a]" started-at="2025-02-10T23:14:02 IST" name="validatelogin" data-provider="dataFromExcel" finished-at="2025-02-10T23:14:05 IST" duration-ms="2569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Address=Hyderabad, No of rooms=1 - One, Hotel search title=Adactin.com - Search Hotel, Check In Date=19/01/2025, First Name=Test, password=reyaz123, Room Type=Standard, Select page title=Adactin.com - Select Hotel, hotel=Hotel Creek, Expiry month=March, Adults per Room=1 - One, Check out Date=20/01/2025, Credit num=1234567812345678, Children per Room  =0 - None, message=Cancel Selected, Expiry year=2026, Card type=Master Card, Booking page title=Adactin.com - Book A Hotel, location=Sydney, LastName=Data, Login page title=Adactin.com - Hotel Reservation System, CVV number=000, Logout page title=Adactin.com - Logout, username=reyaz0806}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM@644baf4a]" started-at="2025-02-10T23:14:05 IST" name="teardown" finished-at="2025-02-10T23:14:08 IST" duration-ms="3129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="flushreports()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOM@644baf4a]" started-at="2025-02-10T23:14:08 IST" name="flushreports" finished-at="2025-02-10T23:14:09 IST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushreports -->
+      </class> <!-- testscripts.regression.ValidateLoginUsingPOM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
