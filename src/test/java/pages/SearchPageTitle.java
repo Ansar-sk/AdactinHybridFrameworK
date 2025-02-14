@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -7,6 +8,9 @@ public class SearchPageTitle extends basepage {
 
 	@FindBy(xpath = "//select[@name='location']")
 	WebElement Location;
+	
+	@FindBy(xpath = "//span[@id='checkout_span']")
+	WebElement checkouterror;
 
 	@FindBy(xpath = "//select[@name='hotels']")
 	WebElement Hotels;
@@ -31,6 +35,9 @@ public class SearchPageTitle extends basepage {
 
 	@FindBy(xpath = "//input[@name='Submit']")
 	WebElement searchButton;
+	
+	@FindBy(xpath = "//option[@value='Standard']")
+	WebElement roomtypevalue;
 
 	public void locationfield(String text) {
 		selectdropdown(Location, text);
@@ -53,9 +60,14 @@ public class SearchPageTitle extends basepage {
 	}
 
 	public void checkOut(String text) {
-		type(Checkindate, text);
+		type(Checkoutdate, text);
 	}
-
+    public void indateclear() {
+    	cleartext(Checkindate);
+    }
+    public void outdateclear() {
+    	cleartext(Checkoutdate);
+    }
 	public void adultsperRoom(String text) {
 		selectdropdown(Adultsperroom, text);
 	}
@@ -63,12 +75,23 @@ public class SearchPageTitle extends basepage {
 	public void childrenPerRoom(String text) {
 		selectdropdown(Childrenperroom, text);
 	}
-
+public String getroomtype() {
+	String value =roomtypevalue.getText();
+	return value;
+	
+}
 	public void searchbutton() {
 		click(searchButton);
 	}
 	public void verifypagetitle(String exptitle) {
 		verifytitle(exptitle);
+	}
+	
+	
+	
+	public void verifycheckout(String errormessage)
+	{
+		validatetext(checkouterror,errormessage);
 	}
 	
 

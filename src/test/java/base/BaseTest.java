@@ -77,10 +77,10 @@ public class BaseTest {
 			driver = new ChromeDriver();
 			test.log(Status.INFO, browser+"Browser is started...");
 		}
-		if (browser.equalsIgnoreCase("edge")) {
+		else if (browser.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
 		}
-		if (browser.equalsIgnoreCase("firefox")) {
+		else if (browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
 		}
 		driver.get(configprop.getProperty("url"));

@@ -34,6 +34,7 @@ public class MyTestListeners extends BaseTest implements ITestListener{
 		String date = simpledateformat.format(new Date());
 		date=date.replace(":", "-");
 		System.out.println(date);
+		
 		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
 			FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\screenshots\\"+testname+date+".png"));
@@ -42,6 +43,7 @@ public class MyTestListeners extends BaseTest implements ITestListener{
 			e.printStackTrace();
 		}
 		test.log(Status.PASS, testname+"is passed");
+		test.addScreenCaptureFromPath(System.getProperty("user.dir")+"\\screenshots\\"+testname+date+".png");
 	}
 	@Override
 	public void onTestFailure(ITestResult result) {
@@ -52,6 +54,7 @@ public class MyTestListeners extends BaseTest implements ITestListener{
 		String date = simpledateformat.format(new Date());
 		date=date.replace(":", "-");
 		System.out.println(date);
+		System.out.println(System.getProperty("user.dir")+"\\screenshots\\"+testname+date+".png");
 		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
 			FileUtils.copyFile(src, new File(System.getProperty("user.dir")+"\\screenshots\\"+testname+date+".png"));
