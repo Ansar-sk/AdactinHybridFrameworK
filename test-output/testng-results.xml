@@ -1,75 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-14T22:28:56 IST" name="Suite" finished-at="2025-02-14T22:29:23 IST" duration-ms="27608">
+  <suite started-at="2025-02-15T18:10:26 IST" name="Default suite" finished-at="2025-02-15T18:11:14 IST" duration-ms="47264">
     <groups>
     </groups>
-    <test started-at="2025-02-14T22:28:56 IST" name="Test" finished-at="2025-02-14T22:29:23 IST" duration-ms="27608">
-      <class name="testscripts.regression.ValidateTC105UsingPOM">
-        <test-method is-config="true" signature="filereadset()[pri:0, instance:testscripts.regression.ValidateTC105UsingPOM@59402b8f]" started-at="2025-02-14T22:28:56 IST" name="filereadset" finished-at="2025-02-14T22:28:56 IST" duration-ms="215" status="PASS">
+    <test started-at="2025-02-15T18:10:26 IST" name="Default test" finished-at="2025-02-15T18:11:14 IST" duration-ms="47264">
+      <class name="testscripts.regression.ValidateTC118UsingPOM">
+        <test-method is-config="true" signature="filereadset()[pri:0, instance:testscripts.regression.ValidateTC118UsingPOM@70ed52de]" started-at="2025-02-15T18:10:26 IST" name="filereadset" finished-at="2025-02-15T18:10:27 IST" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filereadset -->
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testscripts.regression.ValidateTC105UsingPOM@59402b8f]" started-at="2025-02-14T22:28:57 IST" name="setup" finished-at="2025-02-14T22:29:02 IST" duration-ms="5232" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testscripts.regression.ValidateTC118UsingPOM@70ed52de]" started-at="2025-02-15T18:10:28 IST" name="setup" finished-at="2025-02-15T18:10:38 IST" duration-ms="10300" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testscripts.regression.ValidateTC105UsingPOM.Validatesearchpage(java.util.HashMap)]]>
+                <![CDATA[public void testscripts.regression.ValidateTC118UsingPOM.Validatesearchpage(java.util.HashMap)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Validatesearchpage(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateTC105UsingPOM@59402b8f]" started-at="2025-02-14T22:29:02 IST" name="Validatesearchpage" data-provider="datafromexcel" finished-at="2025-02-14T22:29:05 IST" duration-ms="3286" status="PASS">
+        <test-method signature="Validatesearchpage(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateTC118UsingPOM@70ed52de]" started-at="2025-02-15T18:10:38 IST" name="Validatesearchpage" data-provider="datafromexcel" finished-at="2025-02-15T18:11:10 IST" duration-ms="31742" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{Adults per Room=1 - One, Hotel select title=Adactin.com - Select Hotel, No of rooms=1 - One, Check out Date=18/02/2025, Checkouterror=Check-Out Date shall be after than Check-In Date, Hotel search title=Adactin.com - Search Hotel, Check In Date=13/02/2025, expected Title=Adactin.com - Search Hotel, Children per Room  =0 - None, password=reyaz123, Room Type=Standard, hotel=Hotel Creek, location=Sydney, username=reyaz0806}]]>
+                <![CDATA[{Address=Hyderabad, No of rooms=1 - One, Hotel search title=Adactin.com - Search Hotel, Check In Date=19/01/2025, First Name=Test, password=reyaz123, Room Type=Standard, Select page title=Adactin.com - Select Hotel, hotel=Hotel Creek, Expiry month=March, Adults per Room=1 - One, Hotel select title=Adactin.com - Select Hotel, Results found=1 result(s) found. Show all, Check out Date=20/01/2025, Credit num=1234567812345678, Children per Room  =0 - None, message=Cancel Selected, Expiry year=2026, Card type=Master Card, Booking page title=Adactin.com - Book A Hotel, location=Sydney, LastName=Data, Login page title=Adactin.com - Hotel Reservation System, CVV number=000, Logout page title=Adactin.com - Logout, username=reyaz0806}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Validatesearchpage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateTC105UsingPOM@59402b8f]" started-at="2025-02-14T22:29:06 IST" name="teardown" finished-at="2025-02-14T22:29:09 IST" duration-ms="3189" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateTC118UsingPOM@70ed52de]" started-at="2025-02-15T18:11:10 IST" name="teardown" finished-at="2025-02-15T18:11:13 IST" duration-ms="3391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="flushreports()[pri:0, instance:testscripts.regression.ValidateTC105UsingPOM@59402b8f]" started-at="2025-02-14T22:29:23 IST" name="flushreports" finished-at="2025-02-14T22:29:23 IST" duration-ms="241" status="PASS">
+        <test-method is-config="true" signature="flushreports()[pri:0, instance:testscripts.regression.ValidateTC118UsingPOM@70ed52de]" started-at="2025-02-15T18:11:13 IST" name="flushreports" finished-at="2025-02-15T18:11:14 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushreports -->
-      </class> <!-- testscripts.regression.ValidateTC105UsingPOM -->
-      <class name="testscripts.regression.ValidateTC107UsingPOM2">
-        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:testscripts.regression.ValidateTC107UsingPOM2@303cf2ba]" started-at="2025-02-14T22:29:09 IST" name="setup" finished-at="2025-02-14T22:29:16 IST" duration-ms="7477" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testscripts.regression.ValidateTC107UsingPOM2.Validatesearchpage(java.util.HashMap)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Validatesearchpage(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateTC107UsingPOM2@303cf2ba]" started-at="2025-02-14T22:29:16 IST" name="Validatesearchpage" data-provider="datafromexcel" finished-at="2025-02-14T22:29:19 IST" duration-ms="3027" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{Adults per Room=1 - One, Hotel select title=Adactin.com - Select Hotel, No of rooms=1 - One, Check out Date=18/02/2025, Checkouterror=Check-Out Date shall be after than Check-In Date, Hotel search title=Adactin.com - Search Hotel, Check In Date=13/02/2025, expected Title=Adactin.com - Search Hotel, Children per Room  =0 - None, password=reyaz123, Room Type=Standard, hotel=Hotel Creek, location=Sydney, username=reyaz0806}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validatesearchpage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateTC107UsingPOM2@303cf2ba]" started-at="2025-02-14T22:29:20 IST" name="teardown" finished-at="2025-02-14T22:29:23 IST" duration-ms="3188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testscripts.regression.ValidateTC107UsingPOM2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testscripts.regression.ValidateTC118UsingPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

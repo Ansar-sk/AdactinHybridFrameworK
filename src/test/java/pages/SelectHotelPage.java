@@ -25,6 +25,15 @@ public class SelectHotelPage extends basepage {
 	@FindBy(xpath = "//input[@id='cancel']")
 	WebElement cancel;
 	
+	@FindBy(xpath = "//input[@name='order_id_text']")
+	WebElement ordertextbox;
+	
+	@FindBy(xpath = "//input[@name='search_hotel_id']")
+	WebElement ordersearchbutton;
+	
+	@FindBy(xpath = "//label[contains(text(),'1')]")
+	WebElement showresults;
+	
 	public void selectradio() {
 		radiobutton.click();
 	}
@@ -41,6 +50,18 @@ public class SelectHotelPage extends basepage {
 	public void validateroomtype(String exptype) {
 		validateattributes(roomtype, exptype);
 	}
+	
+	public void enterorderid(String id) {
+		type(ordertextbox, id);
+	}
+	 public void searchorder() {
+		 ordersearchbutton.click();
+	 }
+	 
+	 public void validateorder(String expresult) {
+		
+		 validatetext(showresults, expresult);
+	 }
 	public void cancel() {
 		cancel.click();
 	}

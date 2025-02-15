@@ -8,6 +8,8 @@
     <classes>
       <class name="testscripts.regression.ValidateTC105UsingPOM"/>
       <class name="testscripts.regression.ValidateTC107UsingPOM2"/>
+      <class name="testscripts.regression.ValidateTC116UsingPOM"/>
+      <class name="testscripts.regression.ValidateTC118UsingPOM"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

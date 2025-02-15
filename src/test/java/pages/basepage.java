@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import javax.lang.model.element.Element;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -29,19 +30,24 @@ public class basepage extends BaseTest {
 	public void selectdropdown(WebElement element, String text) {
 		new Select(element).selectByVisibleText(text);
 	}
-
+ public String getattribute(WebElement element) {
+	 
+	 WebDriverWait wait =new WebDriverWait(driver, Duration.ofSeconds(10));
+	 wait.until(ExpectedConditions.visibilityOf(element));
+	
+	return element.getAttribute("value");
+ }
 	public void verifytitle(String exptitle) {
 		Assert.assertEquals(gettitle(), exptitle);
 		test.log(Status.PASS, "Both titles matched");
 	}
 
-	public void validatetext(WebElement checkouterror, String errormessage) {
+	public void validatetext(WebElement element, String exptext) {
 
-		String value = checkouterror.getText();
-		Assert.assertEquals(value, errormessage);
+		String value = element.getText();
+		Assert.assertEquals(value, exptext);
 	}
 	
-
 	public void cleartext(WebElement element) {
 		element.clear();
 	}

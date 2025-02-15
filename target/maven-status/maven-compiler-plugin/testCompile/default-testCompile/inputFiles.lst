@@ -3,8 +3,10 @@ D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\keywords\ApplicationKeywor
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\keywords\GenericKeywords.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\keywords\ValidationKeywords.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\pages\basepage.java
+D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\pages\BookHotel.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\pages\loginpage.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\pages\SearchPageTitle.java
+D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\pages\SelectHotelPage.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateLogin.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateLoginUsingKeywords.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateLoginUsingPOM.java
@@ -13,8 +15,12 @@ D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\Val
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateLoginWithExcelDataTc3.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateLoginWithExcelDataTc4.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateLoginWithExcelDataTc5.java
+D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateSearchPageUsingPOM.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateTc104UsingHybrid.java
+D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateTC105UsingPOM.java
+D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateTC107UsingPOM2.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateTc110UsingHybrid.java
+D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateTC116UsingPOM.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateTc119UsingHybrid.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\testscripts\regression\ValidateTcUsingHybrid.java
 D:\JAVALEARNINGS\AdactinHybridFramework\src\test\java\utils\ExtentManager.java

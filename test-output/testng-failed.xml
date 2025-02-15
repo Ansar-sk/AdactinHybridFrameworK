@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testscripts.regression.ValidateTC105UsingPOM">
+      <class name="testscripts.regression.ValidateTC118UsingPOM">
         <methods>
           <include name="setup"/>
-          <include name="teardown"/>
           <include name="Validatesearchpage" invocation-numbers="0"/>
+          <include name="teardown"/>
           <include name="flushreports"/>
           <include name="filereadset"/>
         </methods>
-      </class> <!-- testscripts.regression.ValidateTC105UsingPOM -->
+      </class> <!-- testscripts.regression.ValidateTC118UsingPOM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
